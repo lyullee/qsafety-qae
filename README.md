@@ -133,6 +133,6 @@ documented above.
 
 ## License and citation
 
-The software is released under the Apache License 2.0. Citation metadata is in
+The software is released under the MIT License. Citation metadata is in
 `CITATION.cff`. The version DOI will be added after the first Zenodo archive is
 created.

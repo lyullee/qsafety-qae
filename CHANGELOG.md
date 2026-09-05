@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.2 - 2026-09-05
+
+- Relicensed the current codebase under the MIT License.
+- No changes to the public estimator interface or numerical methods.
+
 ## 0.1.1 - 2026-09-05
 
 - Published a patch release to establish archival metadata and a durable versioned software record.

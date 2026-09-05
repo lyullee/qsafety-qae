@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this software, please cite the archived release."
 title: "QSafety QAE: Quantum amplitude estimation tools for safety probability models"
 type: software
-version: 0.1.1
+version: 0.1.2
 date-released: 2026-09-05
 authors:
   - family-names: "Lee"
@@ -10,4 +10,4 @@ authors:
     affiliation: "Korea Gas Safety Corporation"
     email: "lyullee@gmail.com"
 repository-code: "https://github.com/lyullee/qsafety-qae"
-license: Apache-2.0
+license: MIT
