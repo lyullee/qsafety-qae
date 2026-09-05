@@ -1,0 +1,5 @@
+qiskit~=2.5.2
+qiskit-aer~=0.17.1
+qiskit-ibm-runtime~=0.47.0
+numpy>=1.26
+pandas>=2.1
