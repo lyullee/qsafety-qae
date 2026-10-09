@@ -3,6 +3,7 @@ message: "If you use this software, please cite the archived release."
 title: "QSafety QAE: Quantum amplitude estimation tools for safety probability models"
 type: software
 version: 0.1.3
+doi: 10.5281/zenodo.23265373
 date-released: 2026-10-09
 abstract: >-
   Independently authored tools for comparing classical Monte Carlo and ideal

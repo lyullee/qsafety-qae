@@ -140,6 +140,11 @@ see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Citation metadata is in
 links the archived software versions. Cite a version-specific DOI when reporting
 results obtained with a particular release.
 
+Release 0.1.3: [version-specific software DOI](https://doi.org/10.5281/zenodo.23265373),
+[GitHub release](https://github.com/lyullee/qsafety-qae/releases/tag/v0.1.3), and
+[PyPI package](https://pypi.org/project/qsafety-qae/0.1.3/).
+The DOI identifies software, not the paper or its complete underlying dataset.
+
 ## Research scripts
 
 Selected estimator, uncertainty, and finite-oracle scripts are available in this

@@ -52,6 +52,8 @@ OpenID Connect로 신원을 확인한 워크플로가 PyPI에 자동 게시합�
 
 개념 DOI는 <https://doi.org/10.5281/zenodo.22331844>입니다. 이는 버전들을
 묶는 식별자이며, 특정 릴리스를 고정해 인용하는 버전 DOI와 다릅니다.
+확인된 `v0.1.3` 버전 DOI는 <https://doi.org/10.5281/zenodo.23265373>입니다.
+이는 소프트웨어 DOI이며 논문 자체나 원자료 전체의 DOI가 아닙니다.
 GitHub/Zenodo에는 선택한 연구 스크립트가 포함되지만 PyPI wheel/sdist에는
 핵심 `qsafety` 패키지만 있습니다. `research` extra는 의존성만 설치합니다.
 이번 공개는 코드 공개이며 논문 원자료 전체의 재현성 아카이브가 아닙니다.
