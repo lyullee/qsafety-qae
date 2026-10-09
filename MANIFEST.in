@@ -2,3 +2,5 @@ include README.md LICENSE CITATION.cff CHANGELOG.md
 include CONTRIBUTING.md SECURITY.md RELEASE_GUIDE_KO.md
 include THIRD_PARTY_NOTICES.md RESEARCH_CODE.md
 recursive-include examples *.csv *.py
+# Research tests import repository-only scripts, not the installed core package.
+exclude tests/test_research_methods.py
