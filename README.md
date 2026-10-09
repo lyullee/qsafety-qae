@@ -136,8 +136,9 @@ documented above.
 The project's independently authored software is released under the MIT License.
 Third-party software, standards, data, and documentation retain their own terms;
 see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Citation metadata is in
-`CITATION.cff`. The version DOI will be added after the first Zenodo archive is
-created.
+`CITATION.cff`. The [Zenodo concept DOI](https://doi.org/10.5281/zenodo.22331844)
+links the archived software versions. Cite a version-specific DOI when reporting
+results obtained with a particular release.
 
 ## Research scripts
 
@@ -145,5 +146,9 @@ Selected estimator, uncertainty, and finite-oracle scripts are available in this
 repository. Their optional dependencies can be installed with
 `python -m pip install -e ".[dev,qiskit,research]"`.
 See [RESEARCH_CODE.md](RESEARCH_CODE.md) for the published scope, required local
-inputs, and data-free tests. This code-only update does not bundle the full
-manuscript reproduction dataset and does not change the existing PyPI release.
+inputs, and data-free tests. Release 0.1.3 archives the research scripts in the
+tagged GitHub repository and Zenodo software record. The PyPI wheel and source
+distribution provide the core `qsafety` package, not the repository-only research
+scripts. Installing the `research` extra installs optional dependencies only;
+clone the tagged repository to obtain those scripts. No release bundles the
+full manuscript reproduction dataset.

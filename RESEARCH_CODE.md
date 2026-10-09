@@ -3,13 +3,18 @@
 This code-only update publishes selected independent research methods while
 keeping third-party implementations and uncertain redistribution material
 outside the repository. It does not claim to provide a complete reproduction
-archive for every manuscript result. The existing PyPI release remains 0.1.2.
+archive for every manuscript result. Release 0.1.3 archives these scripts in
+GitHub/Zenodo; its PyPI wheel and source distribution contain the core `qsafety`
+package, not these repository-only scripts. The `research` extra installs their
+optional dependencies but does not install the scripts themselves.
 
 ## Install and run data free checks
 
-From a clone of this repository:
+From a clone of the versioned repository:
 
 ```bash
+git clone --branch v0.1.3 https://github.com/lyullee/qsafety-qae.git
+cd qsafety-qae
 python -m pip install -e ".[dev,qiskit,research]"
 python -m pytest tests/test_research_methods.py
 python scripts/audit_public_release.py
