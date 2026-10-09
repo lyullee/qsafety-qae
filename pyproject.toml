@@ -28,6 +28,7 @@ dependencies = ["numpy>=1.26"]
 qiskit = ["qiskit>=2.2,<3", "qiskit-aer>=0.17,<1"]
 ibm = ["qsafety-qae[qiskit]", "qiskit-ibm-runtime>=0.43,<1"]
 dev = ["build>=1.2", "pytest>=8", "pytest-cov>=5", "ruff>=0.9", "twine>=6"]
+research = ["pandas>=2.1", "matplotlib>=3.8"]
 
 [project.scripts]
 qsafety = "qsafety.cli:main"

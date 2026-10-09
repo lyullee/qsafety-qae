@@ -133,6 +133,17 @@ documented above.
 
 ## License and citation
 
-The software is released under the MIT License. Citation metadata is in
+The project's independently authored software is released under the MIT License.
+Third-party software, standards, data, and documentation retain their own terms;
+see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Citation metadata is in
 `CITATION.cff`. The version DOI will be added after the first Zenodo archive is
 created.
+
+## Research scripts
+
+Selected estimator, uncertainty, and finite-oracle scripts are available in this
+repository. Their optional dependencies can be installed with
+`python -m pip install -e ".[dev,qiskit,research]"`.
+See [RESEARCH_CODE.md](RESEARCH_CODE.md) for the published scope, required local
+inputs, and data-free tests. This code-only update does not bundle the full
+manuscript reproduction dataset and does not change the existing PyPI release.

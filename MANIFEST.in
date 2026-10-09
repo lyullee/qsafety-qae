@@ -1,3 +1,4 @@
 include README.md LICENSE CITATION.cff CHANGELOG.md
 include CONTRIBUTING.md SECURITY.md RELEASE_GUIDE_KO.md
+include THIRD_PARTY_NOTICES.md RESEARCH_CODE.md
 recursive-include examples *.csv *.py

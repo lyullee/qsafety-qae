@@ -1,0 +1,27 @@
+{
+  "review_date": "2026-10-09",
+  "base_commit": "7255ae4",
+  "scope": "Independent research code only; no upstream source, standards tables, study datasets, credentials or manuscript files",
+  "reviewed_additions": [
+    "PUBLICATION_MANIFEST.json",
+    "RESEARCH_CODE.md",
+    "THIRD_PARTY_NOTICES.md",
+    "scripts/audit_public_release.py",
+    "scripts/research_schedule.py",
+    "scripts/hyram_system_scenario_inventory.py",
+    "scripts/hyram_leak_frequency_uncertainty.py",
+    "scripts/hyram_stochastic_trajectory_oracle.py",
+    "scripts/hyram_uncertainty_compressed_oracle.py",
+    "scripts/hyram_rare_trajectory_qae_scaling.py",
+    "scripts/hyram_strong_rare_event_baselines.py",
+    "scripts/hyram_precision_conditional_cost_map.py",
+    "scripts/hyram_qae_schedule_sensitivity.py",
+    "scripts/hyram_qae_prior_bound_sensitivity.py",
+    "scripts/hyram_oracle_cost_boundary.py",
+    "scripts/helpr_empirical_qrom_oracle.py",
+    "scripts/helpr_empirical_qrom_mlqae.py",
+    "scripts/helpr_mlqae_importance_boundary.py",
+    "scripts/helpr_mlqae_crossover_refinement.py",
+    "tests/test_research_methods.py"
+  ]
+}
